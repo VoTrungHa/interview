@@ -99,7 +99,7 @@ export default function Register() {
             Đăng ký
           </button>
         </div>
-        <span className="navigate" onClick={() => navigate("/login")}>
+        <span className="navigate" onClick={() => navigate("/")}>
           Quay lại đăng nhập!
         </span>
       </form>

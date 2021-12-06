@@ -21,7 +21,7 @@ export default function PageHome() {
   }, []);
   const HanldLogOut = () => {
     localStorage.removeItem("info-user");
-    navigate("/login");
+    navigate("/");
   };
   return (
     <Fullscreen>
