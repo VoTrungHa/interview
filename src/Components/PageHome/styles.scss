@@ -1,0 +1,27 @@
+.mod-home {
+  width: 642px;
+  max-width: calc(100vw - 24px);
+  padding: 48px 30px;
+  text-align: center;
+  background: #fff;
+  border-radius: 0.3rem;
+  box-shadow: 1px 1px rgb(165, 164, 164);
+  h1 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  &-content {
+    display: block;
+    p {
+      font-size: 15px;
+      line-height: 1.5;
+    }
+  }
+  .log-out {
+    font-size: 12px;
+    cursor: pointer;
+    &:hover {
+      color: rgb(247, 117, 117);
+    }
+  }
+}

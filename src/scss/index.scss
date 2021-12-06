@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgb(3, 3, 3);
+  font-size: 1.5rem;
+  background: #f7f7f7;
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+input {
+  display: inline-block;
+  width: 100%;
+  height: 45px;
+  padding: 0 7px;
+  margin: 0;
+  overflow: hidden;
+  font: inherit;
+  font-size: 14px;
+  letter-spacing: inherit;
+  cursor: text;
+  background: #f7f7f7;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  border-radius: 4px;
+  outline: 0;
+  -webkit-tap-highlight-color: transparent;
+
+  &::placeholder {
+    color: rgb(90, 88, 88);
+  }
+}
+
+.form {
+  width: 642px;
+  max-width: calc(100vw - 24px);
+  padding: 48px 30px;
+  text-align: center;
+  background: #fff;
+  border-radius: 0.3rem;
+  box-shadow: 1px 1px rgb(165, 164, 164);
+  .formGroup {
+    margin-top: 15px;
+    width: 100%;
+    button {
+      cursor: pointer;
+      display: inline-block;
+      padding: 4px 10px;
+      font-size: 12px;
+      border-radius: 3px;
+      font-weight: bold;
+      line-height: 14px;
+      color: rgb(243, 241, 241);
+      text-decoration: none;
+      cursor: pointer;
+      background: #0072ff;
+      border: 1px solid transparent;
+      outline: none;
+    }
+  }
+  .show-pass {
+    font-size: 12px;
+    cursor: pointer;
+    &:hover {
+      color: rgb(247, 117, 117);
+    }
+  }
+  .navigate {
+    font-size: 12px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all 0.4s;
+    &:hover {
+      color: rgb(247, 117, 117);
+    }
+  }
+}
